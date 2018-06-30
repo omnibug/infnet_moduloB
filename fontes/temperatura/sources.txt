@@ -1,0 +1,104 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 03-11-2017
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 12 SOUID  : Source identifier
+ 14- 53 SOUNAME: Source name
+ 55- 56 CN     : Country code (ISO3116 country codes)
+ 58- 66 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 68- 77 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 79- 82 HGTH   : Station elevation in meters
+ 84- 87 ELEI   : Element identifier (see website at Daily Data > Data dictionary > Elements)
+ 89- 96 BEGIN  : Begin date YYYYMMDD
+ 98-105 END    : End date YYYYMMDD
+107-111 PARID  : Participant identifier
+113-163 PARNAME: Participant name
+
+STAID, SOUID,SOUNAME                                 ,CN,      LAT,       LON,HGHT,ELEI,   BEGIN,     END,PARID,PARNAME
+
+   32,100839,BOURGES                                 ,FR,+47:03:33,+002:21:35, 161, TG5,19450301,20161231,   10,Philippe Dandin                                   
+   32,907255,BOURGES                                 ,FR,+47:04:00,+002:22:00, 166, TG5,19820113,20170930,     ,                    
+   33,100840,TOULOUSE-BLAGNAC                        ,FR,+43:37:16,+001:22:44, 151, TG5,19470101,20161231,   10,Philippe Dandin                                   
+   33,907630,TOULOUSE BLAGNAC                        ,FR,+43:37:00,+001:23:00, 158, TG5,19820114,20170930,     ,                    
+   34,100841,BORDEAUX-MERIGNAC                       ,FR,+44:49:50,-000:41:29,  47, TG5,19201109,20161231,   10,Philippe Dandin                                   
+   34,907510,BORDEAUX MERIGNAC                       ,FR,+44:50:00,-000:42:00,  54, TG5,19820113,20170930,     ,                    
+   36,100843,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42, TG5,19241117,20161231,   10,Philippe Dandin                                   
+   36,907747,PERPIGNAN                               ,FR,+42:44:00,+002:52:00,  47, TG5,19820113,20170930,     ,                    
+   37,100844,LYON - ST EXUPERY                       ,FR,+45:43:35,+005:04:40, 235, TG5,19750420,20161231,   10,Philippe Dandin                                   
+   37,907481,LYON-ST EXUPERY                         ,FR,+45:45:00,+005:05:00, 240, TG5,19820113,20170930,     ,                    
+  736,104037,ABBEVILLE                               ,FR,+50:08:10,+001:50:02,  69, TG5,19220501,20161231,   10,Philippe Dandin                                   
+  736,907005,ABBEVILLE                               ,FR,+50:08:00,+001:50:00,  77, TG5,19820113,20170930,     ,                    
+  737,104041,LILLE-LESQUIN                           ,FR,+50:34:12,+003:05:51,  47, TG5,19441201,20161231,   10,Philippe Dandin                                   
+  737,907015,LILLE-LESQUIN                           ,FR,+50:34:00,+003:06:00,  47, TG5,19820113,20170930,     ,                    
+  738,104045,CAEN-CARPIQUET                          ,FR,+49:10:48,-000:27:22,  67, TG5,19451001,20161231,   10,Philippe Dandin                                   
+  738,907027,CAEN-CARPIQUET                          ,FR,+49:11:00,-000:27:00,  67, TG5,19820113,20170930,     ,                    
+  740,104053,ALENCON                                 ,FR,+48:26:44,+000:06:37, 143, TG5,19460101,20161231,   10,Philippe Dandin                                   
+  740,907139,ALENCON                                 ,FR,+48:27:00,+000:07:00, 144, TG5,19820113,20170930,     ,                    
+  742,104061,NANTES-BOUGUENAIS                       ,FR,+47:09:00,-001:36:32,  26, TG5,19450501,20161231,   10,Philippe Dandin                                   
+  742,907222,NANTES-BOUGUENAIS                       ,FR,+47:09:00,-001:37:00,  26, TG5,19820113,20170930,     ,                    
+  745,104073,DIJON-LONGVIC                           ,FR,+47:16:04,+005:05:18, 219, TG5,19210529,20161231,   10,Philippe Dandin                                   
+  745,907280,DIJON-LONGVIC                           ,FR,+47:16:00,+005:05:00, 227, TG5,19820113,20170930,     ,                    
+  749,104089,POITIERS - BIARD                        ,FR,+46:35:38,+000:18:52, 123, TG5,19210501,20161231,   10,Philippe Dandin                                   
+  749,907335,POITIERS-BIARD                          ,FR,+46:36:00,+000:18:00, 124, TG5,19820115,20170930,     ,                    
+  750,104093,CLERMONT-FERRAND                        ,FR,+45:47:13,+003:08:58, 331, TG5,19230101,20161231,   10,Philippe Dandin                                   
+  750,907460,CLERMONT-FERRAND                        ,FR,+45:47:00,+003:09:00, 326, TG5,19820113,20170930,     ,                    
+  755,104113,EMBRUN                                  ,FR,+44:33:56,+006:30:08, 871, TG5,19470624,20161231,   10,Philippe Dandin                                   
+  755,907591,EMBRUN                                  ,FR,+44:34:00,+006:30:00, 877, TG5,19820113,20170930,     ,                    
+  756,104117,TARBES - OSSUN                          ,FR,+43:11:17,+000:00:00, 360, TG5,19460101,20161231,   10,Philippe Dandin                                   
+  756,907621,TARBES-OSSUN                            ,FR,+43:11:00,+000:00:00, 364, TG5,19820113,20170930,     ,                    
+  757,104121,NICE                                    ,FR,+43:38:56,+007:12:32,   2, TG5,19420701,20161231,   10,Philippe Dandin                                   
+  758,104125,BASTIA                                  ,FR,+42:32:26,+009:29:07,  10, TG5,19470101,20161231,   10,Philippe Dandin                                   
+  758,907790,BASTIA                                  ,FR,+42:33:00,+009:29:00,  12, TG5,19820113,20170930,     ,                    
+  434,104485,BREST-GUIPAVAS                          ,FR,+48:26:39,-004:24:43,  94, TG5,19450101,20161231,   10,Philippe Dandin                                   
+  434,907110,BREST-GUIPAVAS                          ,FR,+48:27:00,-004:25:00,  95, TG5,19820113,20170930,     ,                    
+   39,106702,MARIGNANE                               ,FR,+43:26:16,+005:12:58,   9, TG5,19210101,20161231,   10,Philippe Dandin                                   
+   39,907650,MARIGNANE                               ,FR,+43:27:00,+005:14:00,  32, TG5,19820113,20170930,     ,                    
+  322,106713,RENNES-ST JACQUES                       ,FR,+48:04:08,-001:44:02,  36, TG5,19450101,20161231,   10,Philippe Dandin                                   
+  322,907130,RENNES-SAINT JACQUES                    ,FR,+48:04:00,-001:44:00,  43, TG5,19820113,20170930,     ,                    
+  786,106765,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73, TG5,19200817,20161231,   10,Philippe Dandin                                   
+  786,907577,MONTELIMAR                              ,FR,+44:35:00,+004:44:00,  74, TG5,19820113,20170930,     ,                    
+  793,106768,PTE DE LA HAGUE                         ,FR,+49:43:31,-001:56:23,   6, TG5,19210101,20161231,   10,Philippe Dandin                                   
+  793,907020,PTE DE LA HAGUE                         ,FR,+49:44:00,-001:56:00,   7, TG5,19820113,20170930,     ,                    
+  323,106770,STRASBOURG-ENTZHEIM                     ,FR,+48:32:58,+007:38:25, 150, TG5,19240101,20161231,   10,Philippe Dandin                                   
+  323,907190,STRASBOURG-ENTZHEIM                     ,FR,+48:33:00,+007:38:00, 154, TG5,19820113,20170930,     ,                    
+ 2184,107207,ROUEN - BOOS                            ,FR,+49:22:59,+001:10:54, 151, TG5,19680301,20161231,   10,Philippe Dandin                                   
+ 2184,907037,ROUEN-BOOS                              ,FR,+49:23:00,+001:11:00, 152, TG5,19820113,20170930,     ,                    
+ 2190,107211,TOURS                                   ,FR,+47:26:40,+000:43:38, 108, TG5,19591101,20161231,   10,Philippe Dandin                                   
+ 2190,907240,TOURS                                   ,FR,+47:27:00,+000:44:00, 112, TG5,19820113,20170930,     ,                    
+ 2192,107213,BASEL-MULHOUSE                          ,FR,+47:36:52,+007:30:36, 263, TG5,19470101,20161231,   10,Philippe Dandin                                   
+ 2192,907299,BALE-MULHOUSE                           ,FR,+47:37:00,+007:31:00, 273, TG5,19820113,20170930,     ,                    
+ 2195,107215,LIMOGES - BELLEGARDE                    ,FR,+45:51:40,+001:10:30, 402, TG5,19730101,20161231,   10,Philippe Dandin                                   
+ 2195,907434,LIMOGES-BELLEGARDE                      ,FR,+45:52:00,+001:11:00, 403, TG5,19820113,20170930,     ,                    
+ 2199,107219,GOURDON                                 ,FR,+44:44:42,+001:23:48, 260, TG5,19610201,20161231,   10,Philippe Dandin                                   
+ 2199,907535,GOURDON                                 ,FR,+44:45:00,+001:24:00, 261, TG5,19820113,20170930,     ,                    
+ 2200,107220,MILLAU                                  ,FR,+44:07:07,+003:01:07, 712, TG5,19640401,20161231,   10,Philippe Dandin                                   
+ 2200,907558,MILLAU                                  ,FR,+44:07:00,+003:01:00, 720, TG5,19820113,20170930,     ,                    
+ 2203,107222,MONT-DE-MARSAN                          ,FR,+43:54:35,-000:30:01,  59, TG5,19450101,20161231,   10,Philippe Dandin                                   
+ 2203,907607,MONT-DE-MARSAN                          ,FR,+43:55:00,-000:30:00,  59, TG5,19820113,20170930,     ,                    
+ 2205,107224,ST-GIRONS                               ,FR,+43:00:19,+001:06:25, 414, TG5,19490101,20161231,   10,Philippe Dandin                                   
+ 2205,907627,SAINT GIRONS                            ,FR,+43:00:00,+001:06:00, 411, TG5,19820113,20170930,     ,                    
+ 2207,107225,MONTPELLIER-AEROPORT                    ,FR,+43:34:37,+003:57:47,   2, TG5,19460101,20161231,   10,Philippe Dandin                                   
+ 2207,907643,MONTPELLIER                             ,FR,+43:35:00,+003:58:00,   8, TG5,19820113,20170930,     ,                    
+ 2209,107227,AJACCIO                                 ,FR,+41:55:05,+008:47:34,   5, TG5,19491001,20161231,   10,Philippe Dandin                                   
+ 2209,907761,AJACCIO                                 ,FR,+41:55:00,+008:48:00,   9, TG5,19820113,20170930,     ,                    
+11243,171617,TROYES-BARBEREY                         ,FR,+48:19:29,+004:01:12, 112, TG5,19750501,20161231,   10,Philippe Dandin                                   
+11243,907168,TROYES-BARBEREY                         ,FR,+48:19:00,+004:01:00, 118, TG5,19820113,20170930,     ,                    
+11244,171621,PTE DE CHASSIRON                        ,FR,+46:02:49,-001:24:42,  11, TG5,19170101,20161231,   10,Philippe Dandin                                   
+11244,907314,POINTE DE CHASSIRON                     ,FR,+46:03:00,-001:25:00,  23, TG5,19820113,20170930,     ,                    
+11245,171625,PLOUMANAC'H                             ,FR,+48:49:33,-003:28:23,  55, TG5,19470804,20161231,   10,Philippe Dandin                                   
+11245,907117,PLOUMANAC H                             ,FR,+48:50:00,-003:28:00,  58, TG5,19820113,20170930,     ,                    
+11246,171630,NANCY-OCHEY                             ,FR,+48:34:52,+005:57:35, 336, TG5,19661101,20161231,   10,Philippe Dandin                                   
+11246,907181,NANCY-OCHEY                             ,FR,+48:35:00,+005:58:00, 343, TG5,19820113,20170930,     ,                    
+11247,171634,BELLE ILE - LE TALUT                    ,FR,+47:17:40,-003:13:06,  34, TG5,19300401,20161231,   10,Philippe Dandin                                   
+11247,907207,BELLE ILE-LE TALUT                      ,FR,+47:18:00,-003:13:00,  43, TG5,19820113,20170930,     ,                    
+11248,171638,CAP CEPET                               ,FR,+43:04:46,+005:56:27, 115, TG5,19681001,20161231,   10,Philippe Dandin                                   
+11248,907661,CAP CEPET                               ,FR,+43:05:00,+005:56:00, 133, TG5,19820114,20170930,     ,                    
+11249,171642,ORLY                                    ,FR,+48:43:01,+002:23:04,  89, TG5,19210301,20161231,   10,Philippe Dandin                                   
+11249,907149,PARIS-ORLY                              ,FR,+48:43:00,+002:23:00,  90, TG5,19820113,20170930,     ,                    
